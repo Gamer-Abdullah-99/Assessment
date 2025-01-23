@@ -18,7 +18,7 @@ const social = [
 
 export default function Footer() {
     return (
-        <footer className="border-t border-gray-200">
+        <footer className="border-t border-gray-200 bg-white">
             <div className="max-w-[1200px] mx-auto px-4 py-8">
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
 

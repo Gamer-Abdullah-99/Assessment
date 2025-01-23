@@ -15,7 +15,7 @@ const tabs = ["Producer", "Farmer", "Home Cook"]
 
 export default function ConnectionSection() {
     return (
-        <section className="py-16 px-4 md:px-6 overflow-hidden">
+        <section className="py-16 px-4 md:px-6 overflow-hidden bg-white">
             <div className="max-w-[1200px] mx-auto">
 
                 <div className="mb-16">
