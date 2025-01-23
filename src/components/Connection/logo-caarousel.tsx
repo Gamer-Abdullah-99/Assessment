@@ -7,7 +7,7 @@ interface LogoCarouselProps {
     speed?: number
 }
 
-export function LogoCarousel({ logos, speed = 20000 }: LogoCarouselProps) {
+export default function LogoCarousel({ logos, speed = 20000 }: LogoCarouselProps) {
     const containerRef = useRef<HTMLDivElement>(null)
 
     useEffect(() => {
@@ -16,7 +16,6 @@ export function LogoCarousel({ logos, speed = 20000 }: LogoCarouselProps) {
 
         const resetAnimation = () => {
             container.style.animation = "none"
-            container.offsetHeight
             container.style.animation = `slide ${speed}ms linear infinite`
         }
 

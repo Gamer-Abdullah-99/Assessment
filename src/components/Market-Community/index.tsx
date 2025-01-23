@@ -54,7 +54,6 @@ export default function MarketCommunity() {
                 </div>
             </div>
 
-            {/* Image Grid */}
             <div className="mt-16 flex w-full overflow-hidden">
                 <div className="flex w-full items-end justify-between">
                     {images.map((image, index) => (

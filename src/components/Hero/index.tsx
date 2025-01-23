@@ -9,7 +9,7 @@ export default function Hero() {
 
     return (
         <section className="relative overflow-hidden bg-white py-20">
-            {/* Background decorative elements */}
+
             <div className="absolute inset-0 z-0">
                 <div className="absolute -left-4 top-20 md:left-20">
                     <Image
@@ -51,7 +51,6 @@ export default function Hero() {
                 </div>
             </div>
 
-            {/* Main content */}
             <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
@@ -99,7 +98,7 @@ export default function Hero() {
                         />
                         <div>
                             <p className="font-semibold">Good Morning Jeff!</p>
-                            <p className="text-sm text-gray-600">Let's explore what's fresh today</p>
+                            <p className="text-sm text-gray-600">Let&quot;s explore what&quot;s fresh today</p>
                         </div>
                     </div>
                 </div>

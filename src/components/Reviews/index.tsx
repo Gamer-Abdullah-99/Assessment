@@ -119,7 +119,7 @@ export default function Reviews() {
                 </div>
 
                 <div className="relative mt-16">
-                    {/* Carousel container */}
+
                     <div className="relative overflow-hidden">
                         <div
                             className="flex transition-transform duration-300 ease-in-out"
@@ -132,7 +132,7 @@ export default function Reviews() {
                                             <Image src={testimonial.image} alt="" fill className="object-cover" />
                                         </div>
                                         <div className="p-6">
-                                            <p className="text-lg text-gray-600">"{testimonial.quote}"</p>
+                                            <p className="text-lg text-gray-600">&quot;{testimonial.quote}&quot;</p>
                                             <div className="mt-6 flex items-center gap-4">
                                                 <Image
                                                     src={testimonial.avatar}

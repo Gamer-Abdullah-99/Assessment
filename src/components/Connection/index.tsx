@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { LogoCarousel } from "./logo-caarousel"
+import LogoCarousel from "./logo-caarousel"
 
 
 const brands = [

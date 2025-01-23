@@ -1,12 +1,10 @@
 import Image from "next/image"
-import Link from "next/link"
 
 export default function ForConsumers() {
     return (
         <section className="bg-green-50 py-16 lg:py-24">
             <div className="container mx-auto px-4">
                 <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
-                    {/* Left Column - Device Mockup */}
                     <div className="relative max-lg:order-2">
                         <Image
                             src="/for-consumers.png"
@@ -18,7 +16,6 @@ export default function ForConsumers() {
                         />
                     </div>
 
-                    {/* Right Column - Content */}
                     <div className="space-y-6 max-lg:order-1">
                         <span className="text-sm font-medium text-green-600">For Consumers</span>
 
@@ -28,7 +25,7 @@ export default function ForConsumers() {
                         </h2>
 
                         <p className="text-lg text-gray-600">
-                            Find local producers in your area, get reminders to go to market, know what's available each week. Learn
+                            Find local producers in your area, get reminders to go to market, know what&apos;s available each week. Learn
                             about ingredients and growing practices, be inspired by new recipes.
                         </p>
 
@@ -59,12 +56,11 @@ export default function ForConsumers() {
                             </li>
                         </ul>
 
-                        <Link
-                            href="/join-community"
+                        <div
                             className="inline-flex items-center justify-center rounded-full bg-green-500 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-green-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-500"
                         >
                             Join the Culinary Community
-                        </Link>
+                        </div>
                     </div>
                 </div>
             </div>

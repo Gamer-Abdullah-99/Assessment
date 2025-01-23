@@ -6,7 +6,7 @@ export default function ForBusiness() {
         <section className="bg-green-50 py-16 lg:py-24">
             <div className="container mx-auto px-4">
                 <div className="grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
-                    {/* Left Column - Content */}
+
                     <div className="space-y-6 lg:order-1">
                         <span className="text-sm font-medium text-green-600">For Business</span>
 
@@ -55,7 +55,6 @@ export default function ForBusiness() {
                         </Link>
                     </div>
 
-                    {/* Right Column - Device Mockup */}
                     <div className="relative lg:order-2">
                         <Image
                             src="/for-business.png"

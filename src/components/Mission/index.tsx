@@ -3,9 +3,9 @@ import Image from "next/image"
 export default function Mission() {
     return (
         <section className="relative overflow-hidden bg-white py-24">
-            {/* Decorative quote marks */}
+
             <div className="absolute left-0 top-0 -translate-x-1/2 -translate-y-1/2">
-                <div className="text-[200px] font-serif text-green-50">"</div>
+                <div className="text-[200px] font-serif text-green-50">&quot;</div>
             </div>
 
             <div className="container mx-auto px-4">
